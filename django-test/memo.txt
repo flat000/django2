@@ -1,0 +1,2 @@
+データベース開始
+brew services start postgresql

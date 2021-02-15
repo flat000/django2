@@ -1,0 +1,7 @@
+<!--a.半角空白10個の文字列を生成-->
+{% with ''|center:10 as range %}
+    <!--b.10桁の文字列を順に処理-->
+    {% for _ in range %}
+    <p>こんにちは、赤ちゃん!</p>
+    {% endfor %}
+{% endwith %}
